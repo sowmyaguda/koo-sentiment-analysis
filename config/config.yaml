@@ -1,0 +1,42 @@
+# KOO Sentiment Analysis Configuration
+
+# Scraping Configuration
+scraping:
+  max_posts: 1000
+  timeout: 10
+  delay_between_requests: 2  # seconds
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+# Sentiment Analysis Configuration
+sentiment:
+  model_name: "nlptown/bert-base-multilingual-uncased-sentiment"  # 5-star sentiment
+  # Alternative: "cardiffnlp/twitter-xlm-roberta-base-sentiment"
+  batch_size: 16
+  max_length: 512
+  device: "cpu"  # change to "cuda" if GPU available
+
+# Supported Languages
+languages:
+  - en  # English
+  - hi  # Hindi
+  - ta  # Tamil
+  - te  # Telugu
+  - bn  # Bengali
+  - mr  # Marathi
+  - kn  # Kannada
+  - gu  # Gujarati
+  - ml  # Malayalam
+  - pa  # Punjabi
+
+# Output Configuration
+output:
+  save_raw_data: true
+  save_processed_data: true
+  generate_visualizations: true
+  export_format: ["csv", "json"]
+
+# Dashboard Configuration
+dashboard:
+  port: 8501
+  theme: "light"
+  refresh_interval: 300  # seconds
