@@ -358,17 +358,17 @@ If you use this project in your research, please cite:
 ```bibtex
 @software{koo_sentiment_analysis,
   title={KOO Multilingual Sentiment Analysis},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/koo-sentiment-analysis}
+  author={Sowmya Guda},
+  year={2025},
+  url={https://github.com/sowmyaguda/koo-sentiment-analysis}
 }
 ```
 
 ## Contact
 
 For questions, issues, or suggestions:
-- Email: your.email@example.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/koo-sentiment-analysis/issues)
+- Email: gkvsowmya08@gmail.com
+- GitHub Issues: [Create an issue](https://github.com/sowmyaguda/koo-sentiment-analysis/issues)
 
 ## Roadmap
 
